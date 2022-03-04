@@ -7,14 +7,15 @@
     <property name="DoubleClickTime" type="int" value="532"/>
     <property name="DoubleClickDistance" type="int" value="8"/>
     <property name="DndDragThreshold" type="int" value="8"/>
-    <property name="Cursor" type="bool" value="true"/>
+    <property name="CursorBlink" type="empty"/>
     <property name="CursorBlinkTime" type="int" value="1000"/>
     <property name="SoundThemeName" type="string" value="default"/>
     <property name="EnableEventSounds" type="bool" value="true"/>
     <property name="EnableInputFeedbackSounds" type="bool" value="true"/>
+    <property name="Cursor" type="bool" value="true"/>
   </property>
   <property name="Xft" type="empty">
-    <property name="DPI" type="int" value="96"/>
+    <property name="DPI" type="int" value="144"/>
     <property name="Antialias" type="int" value="1"/>
     <property name="Hinting" type="int" value="0"/>
     <property name="HintStyle" type="string" value="hintnone"/>
@@ -33,7 +34,7 @@
     <property name="ButtonImages" type="bool" value="true"/>
     <property name="MenuBarAccel" type="string" value="F10"/>
     <property name="CursorThemeName" type="string" value="default"/>
-    <property name="CursorThemeSize" type="int" value="16"/>
+    <property name="CursorThemeSize" type="int" value="32"/>
     <property name="DecorationLayout" type="empty"/>
     <property name="DialogsUseHeader" type="empty"/>
     <property name="TitlebarMiddleClick" type="empty"/>
@@ -45,6 +46,6 @@
     <property name="WindowScalingFactor" type="int" value="1"/>
   </property>
   <property name="Xfce" type="empty">
-    <property name="LastCustomDPI" type="int" value="96"/>
+    <property name="LastCustomDPI" type="int" value="144"/>
   </property>
 </channel>

@@ -11,7 +11,16 @@
 	<directories/>
 </action>
 <action>
-	<icon>system-file-manager</icon>
+	<icon>edit-find</icon>
+	<name>Search</name>
+	<unique-id>1640141711673456-3</unique-id>
+	<command>catfish %f</command>
+	<description>Find files and folders</description>
+	<patterns>*</patterns>
+	<directories/>
+</action>
+<action>
+	<icon>system-file-manager-panel</icon>
 	<name>Thunar Root</name>
 	<unique-id>1640141611627863-2</unique-id>
 	<command>pkexec thunar %f</command>
@@ -20,11 +29,20 @@
 	<directories/>
 </action>
 <action>
-	<icon>preferences-system-search</icon>
-	<name>Search</name>
-	<unique-id>1640141711673456-3</unique-id>
-	<command>catfish %f</command>
-	<description>Find files and folders</description>
+	<icon>cloud-upload</icon>
+	<name>Push to Drive</name>
+	<unique-id>1643058283162834-1</unique-id>
+	<command>alacritty --working-directory %f -e drive push</command>
+	<description></description>
+	<patterns>*</patterns>
+	<directories/>
+</action>
+<action>
+	<icon>cloud-download</icon>
+	<name>Pull from Drive</name>
+	<unique-id>1643058402082995-2</unique-id>
+	<command>alacritty --working-directory %f -e drive pull</command>
+	<description></description>
 	<patterns>*</patterns>
 	<directories/>
 </action>

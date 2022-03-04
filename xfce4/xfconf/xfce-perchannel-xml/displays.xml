@@ -139,6 +139,23 @@
         <property name="Y" type="int" value="0"/>
       </property>
     </property>
+    <property name="eDP1" type="string" value="Laptop">
+      <property name="Active" type="bool" value="true"/>
+      <property name="EDID" type="string" value="fa62960efa20319b5f8aeb5d87fde6f9044898fd"/>
+      <property name="Resolution" type="string" value="2736x1824"/>
+      <property name="RefreshRate" type="double" value="60.007941"/>
+      <property name="Rotation" type="int" value="0"/>
+      <property name="Reflection" type="string" value="0"/>
+      <property name="Primary" type="bool" value="false"/>
+      <property name="Scale" type="empty">
+        <property name="X" type="double" value="1.000000"/>
+        <property name="Y" type="double" value="1.000000"/>
+      </property>
+      <property name="Position" type="empty">
+        <property name="X" type="int" value="0"/>
+        <property name="Y" type="int" value="0"/>
+      </property>
+    </property>
   </property>
   <property name="Fallback" type="empty">
     <property name="DP-4" type="string" value="Goldstar Company Ltd 34&quot;">
@@ -214,6 +231,23 @@
       <property name="EDID" type="string" value="95f80564df1890b013c0dbcaad2d3d473d997aed"/>
       <property name="Resolution" type="string" value="3440x1440"/>
       <property name="RefreshRate" type="double" value="59.972616"/>
+      <property name="Rotation" type="int" value="0"/>
+      <property name="Reflection" type="string" value="0"/>
+      <property name="Primary" type="bool" value="false"/>
+      <property name="Scale" type="empty">
+        <property name="X" type="double" value="1.000000"/>
+        <property name="Y" type="double" value="1.000000"/>
+      </property>
+      <property name="Position" type="empty">
+        <property name="X" type="int" value="0"/>
+        <property name="Y" type="int" value="0"/>
+      </property>
+    </property>
+    <property name="eDP1" type="string" value="Laptop">
+      <property name="Active" type="bool" value="true"/>
+      <property name="EDID" type="string" value="fa62960efa20319b5f8aeb5d87fde6f9044898fd"/>
+      <property name="Resolution" type="string" value="2736x1824"/>
+      <property name="RefreshRate" type="double" value="60.007941"/>
       <property name="Rotation" type="int" value="0"/>
       <property name="Reflection" type="string" value="0"/>
       <property name="Primary" type="bool" value="false"/>
